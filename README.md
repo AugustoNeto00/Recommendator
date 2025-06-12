@@ -1,4 +1,4 @@
-# 🎬 Recommendator
+# 🎬 Recommendator (Ainda não finalizado)
 
 Um sistema simples de recomendação de filmes baseado em gêneros, desenvolvido com Node.js, Express e EJS. O usuário seleciona um gênero (Comédia, Ação ou Drama) e recebe uma lista de filmes sugeridos diretamente da API do TMDB (The Movie Database).
 
