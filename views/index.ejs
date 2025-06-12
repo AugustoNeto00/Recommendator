@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendador de Filmes</title>
+</head>
+<body>
+    <h1>Recomendador de FIlmes</h1>
+    <form action="/recommend" method="post">
+        <label for="genre">Escolha seu Gênero: </label>
+        <select name="genre" id="genre">
+            <option value="35">Comédia</option>
+            <option value="28">Ação</option>
+            <option value="18">Drama</option>
+        </select>
+        <button type="submit">Buscar</button>
+    </form>
+
+    <% if (movies && movies.length > 0) { %>
+    <% movies.forEach(function(movie) { %>
+        <div>
+            <h2><%= movie.title %></h2>
+            <p><%= movie.overview %></p>
+        </div>
+    <% }); %>
+<% } %>
+
+</body>
+</html>
