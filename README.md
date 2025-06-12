@@ -1,4 +1,4 @@
-# 🎬 RecommendationAI
+# 🎬 Recommendator
 
 Um sistema simples de recomendação de filmes baseado em gêneros, desenvolvido com Node.js, Express e EJS. O usuário seleciona um gênero (Comédia, Ação ou Drama) e recebe uma lista de filmes sugeridos diretamente da API do TMDB (The Movie Database).
 
@@ -43,7 +43,7 @@ Clone o projeto e acesse a pasta:
 
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
-cd RecommendationAI
+cd Recommendator
 
 ```
 Instale os pacotes com:
